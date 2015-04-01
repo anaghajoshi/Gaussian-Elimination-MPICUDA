@@ -32,7 +32,7 @@ void read_matrix(char* filename, int *n, float ***B){
                 (*B) = (float **)malloc((*n)*sizeof(float *));
                 for(i=0; i<(*n); i++) (*B)[i] = &B_1[i*(*n)];
                 fseek(fh,4,SEEK_SET);
-                for(hi=0;i<(*n);i++)
+                for(i=0;i<(*n);i++)
                         for(j=0; j<(*n); j++) test=fread(&(*B)[i][j],sizeof(float),1,fh);
         }
         if(test!=1){
