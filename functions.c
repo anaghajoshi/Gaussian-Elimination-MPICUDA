@@ -1,7 +1,3 @@
-// Changed By Suchita Doshi
-
-//Branch 1
-
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
