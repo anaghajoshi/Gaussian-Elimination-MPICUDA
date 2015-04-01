@@ -5,6 +5,7 @@
 #include<string.h>
 #include"functions.h"
 
+//New change
 /* Genrates matrix for specified size with random numbers between 0 and 10 */
 void make_matrix(int *n, float ***B){
         float *B_1;
