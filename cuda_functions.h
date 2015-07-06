@@ -1,0 +1,10 @@
+void read_matrix(char *, int *, float **);
+void print_matrix(int , float *);
+void gpuAlloc(int , int );
+void gpuFree(void);
+void gpuMemLoad(int , int , float** , float** , int** );
+void gpuMemStore(int , int , float** , float** , float** );
+void gpuFindMax(int , int );
+void gpuConUp(int , int );
+void gpuBackSubs(int , int );
+void gpuFwdSubs(int , int );
